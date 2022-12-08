@@ -1,0 +1,32 @@
+
+.header-content__text{
+    color: #fff;
+}
+.header-main{
+   display: block;
+   background-color: #1a5dff;
+  
+    
+    
+}
+.header-content{
+    
+    background-image: url('../../../pic/header.png');
+
+    height:100vh ;
+  
+    padding-left: 50px;
+    background-repeat:no-repeat;
+    background-size:80%, auto;
+    background-position:right 0 top 100px;
+    background-attachment: scroll;
+}
+.header-container__title{
+    line-height: 86px;
+    letter-spacing: 1px;
+    color: #ebedf0;
+    width: 100%;
+    max-width: 460px;
+
+}
+.header-content__text

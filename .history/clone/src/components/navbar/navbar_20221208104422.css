@@ -1,0 +1,134 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.navbar {
+  /* display: flex; */
+  /* align-items: center; */
+  /* height: 100px; */
+
+  padding: 2rem 6rem;
+}
+.navbar__links {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+.navbar__links-logo > img {
+  /* width: 70px; */
+  height: 80px;
+}
+.anchor-btn {
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.navbar-item {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+
+  justify-content: flex-end;
+
+  padding: 10px;
+  flex-direction: row;
+  text-decoration: none;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: rgb(10, 20, 21);
+  text-decoration: none;
+}
+.item-1 {
+  padding: 10px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 100;
+}
+.navbar-item1 {
+  list-style-type: none;
+
+  position: absolute;
+  background: white;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.bookCallBtn {
+  border-radius: 20px;
+  background-color: black;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  white-space: nowrap;
+}
+.ri-close{
+  
+}
+.hamburger-style {
+  display: flex;
+
+  justify-content: space-between;
+
+  margin: 1rem 2rem;
+  height: 40px;
+  margin-left: 1px;
+  box-sizing:border-box;
+  p;
+  
+  
+}
+.bd-1 {
+  border-radius: 40px;
+  background-color: black;
+  color: #fff;
+  font-size: 15px;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+
+@media (max-width: 580px){
+.navigation-container__logo {
+    padding: 30px 10px 0;
+}
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 2rem 5%;
+  }
+  .navbar__links-logo > img {
+    /* width: 70px; */
+    height: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar__links-logo > img {
+    height: 40px;
+  }
+
+  .navbar-item {
+    display: none;
+  }
+  .hamburger-menu {
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar__links-logo > img {
+    height: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  
+}

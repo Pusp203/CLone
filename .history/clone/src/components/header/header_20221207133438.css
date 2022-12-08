@@ -1,0 +1,20 @@
+.header-content{
+    height: 100px;
+
+}
+.header-content__text{
+    color: #fff;
+}
+.header-main{
+    background-image: url('../../../pic/header.png');
+    background-color: #1a5dff;
+  
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 80%,auto;
+    background-position: right -250px top 130px;
+    padding-left: 40px;
+    
+    position: relative;
+    
+}

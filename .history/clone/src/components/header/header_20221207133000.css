@@ -1,0 +1,9 @@
+.header-content{
+    background-color: #1a5dff;
+}
+.header-content__text{
+    color: #fff;
+}
+.header-main{
+    background-image: url('../../../pic/header.png');
+}

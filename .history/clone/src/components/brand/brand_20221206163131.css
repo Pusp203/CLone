@@ -1,0 +1,23 @@
+.header-link__button {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    background-image: url(data:;)
+    
+}
+.header-link_label{
+    color: #fff;
+}
+.about-container__img{
+    padding: 10px;
+}
+.about-text{
+   margin: 0.5em 2em;
+   margin-right: 1000px;
+   font-size: 200px;
+}
+.about-container__part_description{
+    margin: 0.5em 10em;
+}

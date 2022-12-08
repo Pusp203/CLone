@@ -1,0 +1,45 @@
+.header-link__button {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    background-image: url(data:;)
+    
+}
+.header-link_label{
+    color: #fff;
+}
+.about-container__img{
+    padding: 10px;
+}
+
+.brand-intiate{
+    background-color:#f5f5f6;
+    display: block;
+}
+.about-text{
+   font-family: sans-serif;
+   font-size: 46px;
+   margin-right: 22em;
+   
+}
+.about-container__part_description{
+    margin-top: 2em;    
+    display: block;
+   line-height: 20px;
+   text-align: ce;
+
+    
+}
+.trusted-brand{
+    font-family:sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #17213e;
+    margin: 40px 0;
+}
+.col-md-12__img{
+
+}

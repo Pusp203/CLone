@@ -1,0 +1,14 @@
+
+.header-content__text{
+    color: #fff;
+}
+.header-main{
+    background-image: url('../../../pic/header.png');
+    background-color: #1a5dff;
+    height:100vh ;
+    padding-left: 50px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+    
+}

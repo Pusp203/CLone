@@ -1,0 +1,20 @@
+
+.header-content__text{
+    color: #fff;
+}
+.header-main{
+   display: block;
+    
+    
+}
+.header-content{
+    background-image: url('../../../pic/header.png');
+    background-color: #1a5dff;
+    height:100vh ;
+  
+    padding-left: 50px;
+    background-repeat:no-repeat;
+    background-size:80%, auto;
+    background-position:right 0 top 100px;
+    background-attachment: scroll;
+}

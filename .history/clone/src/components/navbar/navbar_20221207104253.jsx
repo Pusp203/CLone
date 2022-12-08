@@ -1,0 +1,81 @@
+import React,{useState} from 'react'
+import {RiCloseLine, RiMenu2Line } from 'react-icons/ri';
+import Modal from './Modal';
+// import { useContext } from 'react';
+
+
+import './navbar.css'
+
+
+
+const Navbar= () => {
+    // const { toggleMenu, handleClose, handleOpen } = useContext();
+    const [toggleMenu,setToggleMenu]=useState(false);
+  return (
+    <div className='navbar'>
+    <div className='navbar__links'>
+    <div className='navbar__links-logo'>
+    <img src='https://boostylabs.com/img/logo-black.png'/>
+    </div>
+    <ul class="navbar-item">
+                    <li class="item-1">
+                        <a class="nav-link" href="/services">Services</a>
+                    </li>
+                    <li class="item-1">
+                        <a class="nav-link" href="/projects">Projects</a>
+                    </li>
+                    <li class="item-1">
+                        <a class="nav-link" href="/solutions">Solutions</a>
+                    </li>
+                    <li class="item-1">
+                        <a class="nav-link " href="/growth">Growth</a>
+                    </li>
+                    <li class="item-1">
+                        <a class="nav-link" href="/contacts">Contacts</a>
+                    </li>
+               
+                <a  className='anchor-btn' href='https://meetings-eu1.hubspot.com/boosty/book-a-call'  target="_blank"> <button>Book a call</button> </a>
+                
+
+                {toggleMenu
+                  ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
+                  : <RiMenu2Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />}
+                {toggleMenu && (
+                  <ul class="navbar-item1">
+                    <li class="item-1">
+                        <a class="nav-link" href="/services">Services</a>
+                    </li>
+                    <li class="item-1">
+                        <a class="nav-link" href="/projects">Projects</a>
+                    </li>
+                    <li class="item-1">
+                        <a class="nav-link" href="/solutions">Solutions</a>
+                    </li>
+                    <li class="item-1">
+                        <a class="nav-link " href="/growth">Growth</a>
+                    </li>
+                    <li class="item-1">
+                        <a class="nav-link" href="/contacts">Contacts</a>
+                    </li>
+                </ul>)}
+
+
+                
+                
+    
+                
+            
+          
+
+
+    </div>
+    </div>
+
+
+
+      
+    
+  )
+}
+
+export default Navbar

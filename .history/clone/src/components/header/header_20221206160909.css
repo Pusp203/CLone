@@ -1,0 +1,22 @@
+.header-content{
+    background-color: #1a5dff;
+}
+.header-content__text{
+    color: #fff;
+}
+
+.header-link__button {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    background-image: url(data:;)
+    
+}
+.header-link_label{
+    color: #fff;
+}
+.about-container__img{
+    padding: 5px;
+}

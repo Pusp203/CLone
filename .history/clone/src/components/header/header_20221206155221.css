@@ -1,0 +1,18 @@
+.header-content{
+    background-color: #1a5dff;
+}
+.header-content__text{
+    color: #fff;
+}
+
+.header-link__button {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAYAAADtc08vAAAABmJLR0QA/wD/AP+gvaeTAAABL0lEQVQokZXOu0oDURSF4X/HENTCQi3MTJ7AYGttJYIgBLTKZLAKgoWVIEFMRCzsxDIgQi4iiu9hL2KjXS5WCiJ4IZllFfBCJpPdrrW+cyD0ZElPW05e4/0asbC543FkxjHvXKfXlBgaiEEZeAKWXsa4YkHxoYBGzR5iAYvAM2LFTXFGSb82oQBAo263FrAMvMnwnEdOhgIAmnW7wcgAn8Cm46nYy2wyq4nREQpRICBNwDIGgo121cqW8uUGohER+HldwVz8I85r4oudKAsZ8yYyGBhst6p2b1GfS3oqmHEIBEC+VbVTgEiAm9Ou4ADoYvitip33soGAk9MesA90gFyrahc/81DA8VVCFIGOiWyzZpd/O30B19eUxB0wLWO9XbHaoN/+u5msZl1fq2Gdb/tRYHOxlf28AAAAAElFTkSuQmCC);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+}
